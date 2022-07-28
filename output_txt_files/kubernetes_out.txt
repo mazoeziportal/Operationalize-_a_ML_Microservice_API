@@ -1,1 +1,16 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) pradev@penguin:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+NAME                   READY   STATUS    RESTARTS   AGE
+app                    1/1     Running   0          2m2s
+app-7c89b5b9b8-7gm8t   1/1     Running   0          2m2s
+
+Forwarding from 127.0.0.1:8001 -> 80
+Forwarding from [::1]:8001 -> 80
+Handling connection for 8001
+
+
+Port: 8001
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
